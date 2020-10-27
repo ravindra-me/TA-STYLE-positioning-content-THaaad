@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2 | positioning</title>
+    <script src="https://kit.fontawesome.com/379acff5c7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
     <header>
         <div class="container clearfix">
             <a href="#" class="logo"><img class="img" src="https://miro.medium.com/max/700/1*G0vNhGnL4kWlZm2CTmLLtg.png" alt="logo"></a>
@@ -18,39 +19,49 @@
         </div>
     </header>
     <main>
-        <section>
+        <article class="artical">
             <div class="container clearfix">
-                <article class="artical">
-                    <div class="col col-1">
-                        <h1>altcampus</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestiae similique qui quibusdam in vel illo, maxime aperiam corporis, fugit voluptatibus quis sit? Numquam saepe dolores nihil veniam. A cupiditate, necessitatibus eos, vero magni maxime officia facere voluptate dolorum autem accusamus temporibus fugit optio? Molestias tenetur totam laudantium laboriosam, excepturi itaque sit. Dolores, nobis illum hic porro, quaerat tempora dicta deleniti ducimus soluta impedit aperiam, ipsa cupiditate? Quis quasi amet quia eius cumque optio. Quaerat animi pariatur tempore error rerum beatae incidunt inventore fugit qui adipisci, nostrum quidem distinctio. Voluptatibus illum voluptatum saepe nulla error. Cum perferendis ratione impedit officia?</p>
-                    </div>
-                    <div class="col col-2">
-                        <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                    </div>
-                </article>
-                <div class="row-1">
-                    <img src="https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                    <img src="https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                    <img src="https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <div class="col artical-col-left">
+                    <h1 class="artical-heading">This is the heading of teh artical</h1>
+                    <p class="artical-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, est quisquam nesciunt mollitia consectetur officia nobis magnam, eveniet a id, natus odit animi alias. Animi, possimus sequi sapiente illum rem aspernatur minima, accusamus, distinctio amet earum debitis laboriosam quasi eligendi sit! In, quae. Distinctio totam harum aliquam maxime nesciunt corrupti obcaecati molestias ipsam atque minus nihil dignissimos debitis, fugit veritatis? Non doloremque modi dolores voluptatibus maiores minima ducimus, necessitatibus labore, nihil enim voluptate adipisci, laboriosam quia in beatae repellendus nobis quae! Quasi neque vitae perspiciatis omnis labore, architecto ullam impedit voluptates, nisi alias quas molestias sequi, a quis inventore dolor?</p>
                 </div>
-                <div class="row-2">
-                    <img src="https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                    <img src="https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                    <img src="https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                </div>            
+                <div class="col artical-colright">
+                    <img class="artical-img" src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="cat">
+                </div>
+            </div>
+        </article>
+        <section class="gallery">
+            <div class="container clearfix">
+                <div class="col-1-3">
+                    <img src="https://images.pexels.com/photos/3807378/pexels-photo-3807378.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="black cat">
+                </div>
+                <div class="col-1-3">
+                    <img src="https://images.pexels.com/photos/96973/pexels-photo-96973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="black cat">
+                </div>
+                <div class="col-1-3">
+                    <img src="https://images.pexels.com/photos/3333536/pexels-photo-3333536.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="black cat">
+                </div>
+                <div class="col-1-3">
+                    <img src="https://images.pexels.com/photos/3807378/pexels-photo-3807378.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="black cat">
+                </div>
+                <div class="col-1-3">
+                    <img src="https://media.istockphoto.com/photos/green-eyed-cat-picture-id1124240152" alt="black cat">
+                </div>
+                <div class="col-1-3">
+                    <img src="https://images.pexels.com/photos/3807378/pexels-photo-3807378.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="black cat">
+                </div>               
             </div>
         </section>
     </main>
     <footer>
         <div class="container clearfix">
-            <a href="#" class="footer-col">&copy;Altcampus</a>
-            <nav class="nav-footer ">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
+            <nav>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
             </nav>
         </div>
     </footer>
+    <a href="#top" class="top-btn">Top</a>
 </body>
 </html>
