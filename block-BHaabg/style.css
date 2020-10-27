@@ -1,0 +1,153 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* costum style */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 72px;
+    line-height: 72px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    padding:  0 32px;
+    margin: 0 auto;
+}
+.clearfix::before, .clearfix::after{
+     content: '';
+     display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+}
+.logo .img{
+       width: 180px;
+       vertical-align: middle;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 18px ;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: 500;
+}
+/* artcal */
+.artical{
+    background-color: aliceblue;
+    padding: 80px 0;
+    padding-top: 152px;
+}
+.artical-heading{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.artical-txt{
+    font-size: 20px;
+    line-height: 1.7;
+}
+.col{
+    float: left;
+    width: 50%;
+}
+.artical-img{
+    width: 100%;
+    border:3px solid aquamarine;
+    border-radius: 8px;
+}
+.artical-col-left{
+    padding-right: 60px ;
+}
+/* gallery */
+.gallery{
+    padding: 80px 0;
+}
+.col-1-3{
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+}
+.gallery img{
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+/* footer */
+footer{
+    background-color: darkblue;
+    padding: 32px 0;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 16px;
+}
+.top-btn{
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: darkturquoise;
+    text-align: center;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    line-height: 48px;
+
+}
