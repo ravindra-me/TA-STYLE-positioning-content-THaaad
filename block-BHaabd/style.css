@@ -43,10 +43,16 @@ table {
 	border-spacing: 0;
 }
 /* costum style */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
 body{
     font-size: 16px;
     line-height: 1.5;
-    background-color: rgb(194, 193, 193);
+    padding:32px;
+    background-color: antiquewhite;
 }
 header{
     text-align: center;
@@ -54,32 +60,8 @@ header{
 .container{
     width: 1200px;
     margin: 0 auto;
-    padding: 32px 0;
-}
-.container h1{
-    font-size: 50px;
-    font-weight: 500;
-    word-spacing: 10px;
-}
-section{
-    width: 70%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    padding:   32px;
     background-color: white;
-}
-img{
-    width: 100%;
-}
-.col{
-    float: left;
-    vertical-align: top;
-    margin:0 1%;
-}
-.col2{
-    width: 46%;
-}
-.col1,.col3{
-    width: 23%;
 }
 .container::after ,.container::before{
     content: '';
@@ -88,21 +70,44 @@ img{
 .container::after{
     clear: both;
 }
-h2{
-    margin: 0 20% 0 0;
-}
-.h2-heading{
+h1{
+    font-size: 60px;
+    font-weight: 500;
+    word-spacing: 10px;
     text-align: center;
-    padding: 20px 0;
+    padding:24px 0 ;
+}
+img{
+    width: 100%;
+}
+.col{
+    float: left;
+    vertical-align: top;
+}
+.col2{
+    width: 50%;
+}
+aside{
+    width: 25%;
 }
 h2{
-    font-size: 40px;
-    font-weight: 500px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 .col2 p{
-   margin-top: 20px;
+    font-size: 16px;
+    margin-top: 16px;
 }
-p{
+.quote{
+    padding: 0 32px;
+}
+.col1 p{
     font-size: 20px;
-    line-height: 1.5;
+}
+.col3{
+    font-weight: 600px;
+    padding-left: 32px;
+    font-size: 20px;
+    font-weight: 600;
 }
